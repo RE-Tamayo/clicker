@@ -1,0 +1,64 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: monospace;
+}
+
+html {
+	background: #77B1CE;
+	background: -webkit-linear-gradient(top left, #77B1CE, #78E4F9);
+	background: -moz-linear-gradient(top left, #77B1CE, #78E4F9);
+	background: linear-gradient(to bottom right, #77B1CE, #78E4F9);
+}
+
+#fun {
+	display:block;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	border: none;
+	background: #BA1512;
+	background: -webkit-linear-gradient(top left, #BA1512, #F73A14);
+	background: -moz-linear-gradient(top left, #BA1512, #F73A14);
+	background: linear-gradient(to bottom right, #BA1512, #F73A14);
+	box-shadow: 0 20px #c4141b;
+	font-family: monospace;
+	color: white;
+	font-size: 200px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+#fun:hover {background: #BA1512;
+	background: -webkit-linear-gradient(top left, #BA1512, #F73A14);
+	background: -moz-linear-gradient(top left, #BA1512, #F73A14);
+	background: linear-gradient(to bottom right, #BA1512, #F73A14);}
+
+#fun:active {
+	box-shadow: 0 5px #b92429;
+	transform: translateY(15px);
+}
+
+#skull {
+	width: 180px;
+	height: 180px;
+	margin-top: 40px;
+
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+}
+
+.container {
+	display: grid;
+	place-items:center;
+	width: 100%;
+	height: 600px;
+}
+
+.button-container {
+	
+}
